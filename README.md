@@ -34,3 +34,19 @@ In terms of actual dependencies, we only have EmotionJS, since it's used in the 
 * /components/ComponentName/ComponentName.js
 * /components/ComponentName/index.js - contains exports of all components in folder
 * .babelrc - env and react Babel presets.
+
+## Todo
+
+### High Priority
+
+* More components
+
+### Low Priority
+
+* Install ESLint + Prettier for code style management
+* Install Jest/Enzyme for testing
+* Integrate Jest + Storybook for testing
+
+### Thoughts
+
+* Install Lerna to manage sub-packages, allowing users to install specific components
